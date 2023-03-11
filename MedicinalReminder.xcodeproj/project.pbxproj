@@ -9,25 +9,35 @@
 /* Begin PBXBuildFile section */
 		4CCE7C7129BCC399004543F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE7C7029BCC399004543F2 /* AppDelegate.swift */; };
 		4CCE7C7329BCC399004543F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE7C7229BCC399004543F2 /* SceneDelegate.swift */; };
-		4CCE7C7529BCC399004543F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE7C7429BCC399004543F2 /* ViewController.swift */; };
-		4CCE7C7829BCC399004543F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE7C7629BCC399004543F2 /* Main.storyboard */; };
 		4CCE7C7B29BCC399004543F2 /* MedicinalReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE7C7929BCC399004543F2 /* MedicinalReminder.xcdatamodeld */; };
 		4CCE7C7D29BCC39B004543F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE7C7C29BCC39B004543F2 /* Assets.xcassets */; };
 		4CCE7C8029BCC39B004543F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE7C7E29BCC39B004543F2 /* LaunchScreen.storyboard */; };
 		4CCE7C8829BCC3B3004543F2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE7C8729BCC3B2004543F2 /* .gitignore */; };
+		4CCE7C8D29BCC65F004543F2 /* ReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE7C8A29BCC65F004543F2 /* ReminderVC.swift */; };
+		4CCE7C8E29BCC65F004543F2 /* TotalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE7C8B29BCC65F004543F2 /* TotalVC.swift */; };
+		4CCE7C8F29BCC65F004543F2 /* TodayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE7C8C29BCC65F004543F2 /* TodayVC.swift */; };
+		4CCE7C9129BCC66F004543F2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE7C9029BCC66F004543F2 /* Constants.swift */; };
+		4CCE7C9329BCC6A4004543F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE7C9229BCC6A4004543F2 /* Main.storyboard */; };
+		551E2D993D2EC82A6D83267B /* Pods_MedicinalReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9CAD74DF3A3738BFFEB527 /* Pods_MedicinalReminder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2363F44D84F028C8FE1C7791 /* Pods-MedicinalReminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicinalReminder.release.xcconfig"; path = "Target Support Files/Pods-MedicinalReminder/Pods-MedicinalReminder.release.xcconfig"; sourceTree = "<group>"; };
 		4CCE7C6D29BCC399004543F2 /* MedicinalReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicinalReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCE7C7029BCC399004543F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CCE7C7229BCC399004543F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4CCE7C7429BCC399004543F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4CCE7C7729BCC399004543F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CCE7C7A29BCC399004543F2 /* MedicinalReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicinalReminder.xcdatamodel; sourceTree = "<group>"; };
 		4CCE7C7C29BCC39B004543F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CCE7C7F29BCC39B004543F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CCE7C8129BCC39B004543F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CCE7C8729BCC3B2004543F2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4CCE7C8A29BCC65F004543F2 /* ReminderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderVC.swift; sourceTree = "<group>"; };
+		4CCE7C8B29BCC65F004543F2 /* TotalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalVC.swift; sourceTree = "<group>"; };
+		4CCE7C8C29BCC65F004543F2 /* TodayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayVC.swift; sourceTree = "<group>"; };
+		4CCE7C9029BCC66F004543F2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4CCE7C9229BCC6A4004543F2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8B9CAD74DF3A3738BFFEB527 /* Pods_MedicinalReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicinalReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5CC7BC6976CE849DF20D3D8 /* Pods-MedicinalReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicinalReminder.debug.xcconfig"; path = "Target Support Files/Pods-MedicinalReminder/Pods-MedicinalReminder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,18 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551E2D993D2EC82A6D83267B /* Pods_MedicinalReminder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D711847C877DB2DADEBA124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B9CAD74DF3A3738BFFEB527 /* Pods_MedicinalReminder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4CCE7C6429BCC399004543F2 = {
 			isa = PBXGroup;
 			children = (
 				4CCE7C8729BCC3B2004543F2 /* .gitignore */,
 				4CCE7C6F29BCC399004543F2 /* MedicinalReminder */,
 				4CCE7C6E29BCC399004543F2 /* Products */,
+				A8D7CEA9704C215744D4A7D1 /* Pods */,
+				3D711847C877DB2DADEBA124 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,14 +84,34 @@
 			children = (
 				4CCE7C7029BCC399004543F2 /* AppDelegate.swift */,
 				4CCE7C7229BCC399004543F2 /* SceneDelegate.swift */,
-				4CCE7C7429BCC399004543F2 /* ViewController.swift */,
-				4CCE7C7629BCC399004543F2 /* Main.storyboard */,
+				4CCE7C9029BCC66F004543F2 /* Constants.swift */,
+				4CCE7C8929BCC65F004543F2 /* Reminder */,
+				4CCE7C9229BCC6A4004543F2 /* Main.storyboard */,
 				4CCE7C7C29BCC39B004543F2 /* Assets.xcassets */,
 				4CCE7C7E29BCC39B004543F2 /* LaunchScreen.storyboard */,
 				4CCE7C8129BCC39B004543F2 /* Info.plist */,
 				4CCE7C7929BCC399004543F2 /* MedicinalReminder.xcdatamodeld */,
 			);
 			path = MedicinalReminder;
+			sourceTree = "<group>";
+		};
+		4CCE7C8929BCC65F004543F2 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE7C8A29BCC65F004543F2 /* ReminderVC.swift */,
+				4CCE7C8B29BCC65F004543F2 /* TotalVC.swift */,
+				4CCE7C8C29BCC65F004543F2 /* TodayVC.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		A8D7CEA9704C215744D4A7D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5CC7BC6976CE849DF20D3D8 /* Pods-MedicinalReminder.debug.xcconfig */,
+				2363F44D84F028C8FE1C7791 /* Pods-MedicinalReminder.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CCE7C8429BCC39B004543F2 /* Build configuration list for PBXNativeTarget "MedicinalReminder" */;
 			buildPhases = (
+				A16B6B3F4FE329B9A3C8E912 /* [CP] Check Pods Manifest.lock */,
 				4CCE7C6929BCC399004543F2 /* Sources */,
 				4CCE7C6A29BCC399004543F2 /* Frameworks */,
 				4CCE7C6B29BCC399004543F2 /* Resources */,
+				6B403DA50811A327CB54E414 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,35 +177,72 @@
 				4CCE7C8829BCC3B3004543F2 /* .gitignore in Resources */,
 				4CCE7C8029BCC39B004543F2 /* LaunchScreen.storyboard in Resources */,
 				4CCE7C7D29BCC39B004543F2 /* Assets.xcassets in Resources */,
-				4CCE7C7829BCC399004543F2 /* Main.storyboard in Resources */,
+				4CCE7C9329BCC6A4004543F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B403DA50811A327CB54E414 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedicinalReminder/Pods-MedicinalReminder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedicinalReminder/Pods-MedicinalReminder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MedicinalReminder/Pods-MedicinalReminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A16B6B3F4FE329B9A3C8E912 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedicinalReminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CCE7C6929BCC399004543F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CCE7C7529BCC399004543F2 /* ViewController.swift in Sources */,
+				4CCE7C8F29BCC65F004543F2 /* TodayVC.swift in Sources */,
 				4CCE7C7129BCC399004543F2 /* AppDelegate.swift in Sources */,
 				4CCE7C7B29BCC399004543F2 /* MedicinalReminder.xcdatamodeld in Sources */,
+				4CCE7C8E29BCC65F004543F2 /* TotalVC.swift in Sources */,
+				4CCE7C8D29BCC65F004543F2 /* ReminderVC.swift in Sources */,
 				4CCE7C7329BCC399004543F2 /* SceneDelegate.swift in Sources */,
+				4CCE7C9129BCC66F004543F2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4CCE7C7629BCC399004543F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CCE7C7729BCC399004543F2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4CCE7C7E29BCC39B004543F2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,6 +370,7 @@
 		};
 		4CCE7C8529BCC39B004543F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5CC7BC6976CE849DF20D3D8 /* Pods-MedicinalReminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,6 +399,7 @@
 		};
 		4CCE7C8629BCC39B004543F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2363F44D84F028C8FE1C7791 /* Pods-MedicinalReminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
