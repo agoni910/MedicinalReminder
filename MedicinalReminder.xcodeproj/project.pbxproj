@@ -14,10 +14,10 @@
 		4CCE7C8029BCC39B004543F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE7C7E29BCC39B004543F2 /* LaunchScreen.storyboard */; };
 		4CCE7C8829BCC3B3004543F2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE7C8729BCC3B2004543F2 /* .gitignore */; };
 		4CCE7C8D29BCC65F004543F2 /* ReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE7C8A29BCC65F004543F2 /* ReminderVC.swift */; };
-		4CCE7C8E29BCC65F004543F2 /* TotalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE7C8B29BCC65F004543F2 /* TotalVC.swift */; };
-		4CCE7C8F29BCC65F004543F2 /* TodayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE7C8C29BCC65F004543F2 /* TodayVC.swift */; };
 		4CCE7C9129BCC66F004543F2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE7C9029BCC66F004543F2 /* Constants.swift */; };
 		4CCE7C9329BCC6A4004543F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE7C9229BCC6A4004543F2 /* Main.storyboard */; };
+		4CDC6DAA29C071A4002448A7 /* WaterfallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC6DA929C071A4002448A7 /* WaterfallVC.swift */; };
+		4CDC6DAF29C074D9002448A7 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC6DAE29C074D9002448A7 /* WaterfallCell.swift */; };
 		551E2D993D2EC82A6D83267B /* Pods_MedicinalReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9CAD74DF3A3738BFFEB527 /* Pods_MedicinalReminder.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,10 +32,10 @@
 		4CCE7C8129BCC39B004543F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CCE7C8729BCC3B2004543F2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		4CCE7C8A29BCC65F004543F2 /* ReminderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderVC.swift; sourceTree = "<group>"; };
-		4CCE7C8B29BCC65F004543F2 /* TotalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalVC.swift; sourceTree = "<group>"; };
-		4CCE7C8C29BCC65F004543F2 /* TodayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayVC.swift; sourceTree = "<group>"; };
 		4CCE7C9029BCC66F004543F2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4CCE7C9229BCC6A4004543F2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4CDC6DA929C071A4002448A7 /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
+		4CDC6DAE29C074D9002448A7 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
 		8B9CAD74DF3A3738BFFEB527 /* Pods_MedicinalReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicinalReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CC7BC6976CE849DF20D3D8 /* Pods-MedicinalReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicinalReminder.debug.xcconfig"; path = "Target Support Files/Pods-MedicinalReminder/Pods-MedicinalReminder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,10 +99,18 @@
 			isa = PBXGroup;
 			children = (
 				4CCE7C8A29BCC65F004543F2 /* ReminderVC.swift */,
-				4CCE7C8B29BCC65F004543F2 /* TotalVC.swift */,
-				4CCE7C8C29BCC65F004543F2 /* TodayVC.swift */,
+				4CDC6DAD29C07215002448A7 /* Waterfall */,
 			);
 			path = Reminder;
+			sourceTree = "<group>";
+		};
+		4CDC6DAD29C07215002448A7 /* Waterfall */ = {
+			isa = PBXGroup;
+			children = (
+				4CDC6DA929C071A4002448A7 /* WaterfallVC.swift */,
+				4CDC6DAE29C074D9002448A7 /* WaterfallCell.swift */,
+			);
+			path = Waterfall;
 			sourceTree = "<group>";
 		};
 		A8D7CEA9704C215744D4A7D1 /* Pods */ = {
@@ -230,13 +238,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CCE7C8F29BCC65F004543F2 /* TodayVC.swift in Sources */,
 				4CCE7C7129BCC399004543F2 /* AppDelegate.swift in Sources */,
 				4CCE7C7B29BCC399004543F2 /* MedicinalReminder.xcdatamodeld in Sources */,
-				4CCE7C8E29BCC65F004543F2 /* TotalVC.swift in Sources */,
+				4CDC6DAF29C074D9002448A7 /* WaterfallCell.swift in Sources */,
 				4CCE7C8D29BCC65F004543F2 /* ReminderVC.swift in Sources */,
 				4CCE7C7329BCC399004543F2 /* SceneDelegate.swift in Sources */,
 				4CCE7C9129BCC66F004543F2 /* Constants.swift in Sources */,
+				4CDC6DAA29C071A4002448A7 /* WaterfallVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

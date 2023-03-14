@@ -148,6 +148,50 @@
             </objects>
             <point key="canvasLocation" x="-514.39999999999998" y="-956.1576354679803"/>
         </scene>
+        <!--WaterfallVC-->
+        <scene sceneID="aOt-3e-utu">
+            <objects>
+                <collectionViewController storyboardIdentifier="WaterfallVCID" id="9eL-au-B3a" customClass="WaterfallVC" customModule="MedicinalReminder" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="iod-FR-eIL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewLayout key="collectionViewLayout" id="cWL-gZ-yPh" customClass="CHTCollectionViewWaterfallLayout" customModule="CHTCollectionViewWaterfallLayout"/>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WaterfallCellID" id="aru-Jy-crx" customClass="WaterfallCell" customModule="MedicinalReminder" customModuleProvider="target">
+                                <rect key="frame" x="71.666666666666671" y="0.0" width="232" height="221"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Hg1-fY-Yzb">
+                                    <rect key="frame" x="0.0" y="0.0" width="232" height="221"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PRc-2s-b99">
+                                            <rect key="frame" x="0.0" y="0.0" width="232" height="221"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="PRc-2s-b99" secondAttribute="bottom" id="2CJ-lb-bAd"/>
+                                        <constraint firstAttribute="trailing" secondItem="PRc-2s-b99" secondAttribute="trailing" id="8WM-r2-TnE"/>
+                                        <constraint firstItem="PRc-2s-b99" firstAttribute="top" secondItem="Hg1-fY-Yzb" secondAttribute="top" id="LHi-bQ-MDO"/>
+                                        <constraint firstItem="PRc-2s-b99" firstAttribute="leading" secondItem="Hg1-fY-Yzb" secondAttribute="leading" id="YSR-Gp-55C"/>
+                                    </constraints>
+                                </collectionViewCellContentView>
+                                <size key="customSize" width="232" height="221"/>
+                                <connections>
+                                    <outlet property="imageView" destination="PRc-2s-b99" id="dpw-In-a4b"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="9eL-au-B3a" id="Jt0-RW-iTC"/>
+                            <outlet property="delegate" destination="9eL-au-B3a" id="koM-85-HQ6"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o8A-tk-4Xh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="154" y="-1229"/>
+        </scene>
         <!--记录-->
         <scene sceneID="V8e-Ef-v8K">
             <objects>

@@ -6,7 +6,6 @@ target 'MedicinalReminder' do
   use_frameworks!
 
   # Pods for MedicinalReminder
-
-
   pod 'XLPagerTabStrip', '~> 9.0'
+  pod 'CHTCollectionViewWaterfallLayout'
 end

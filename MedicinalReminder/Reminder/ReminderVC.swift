@@ -24,13 +24,23 @@ class ReminderVC: ButtonBarPagerTabStripViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        changeCurrentIndexProgressive = { (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, progressPercentage: CGFloat, changeCurrentIndex: Bool, animated: Bool) -> Void in
+            guard changeCurrentIndex == true else { return }
+            
+            oldCell?.label.textColor = .secondaryLabel
+            newCell?.label.textColor = .label
+        }
     }
     
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
-        let totalVC = storyboard!.instantiateViewController(withIdentifier: kTotalVCID)
-        let todayVC = storyboard!.instantiateViewController(withIdentifier: kTodayVCID)
-        
-        return [totalVC, todayVC]
+        var vcs: [UIViewController] = []
+        for channel in channels {
+            let vc = storyboard!.instantiateViewController(identifier: kWaterfallVCID) as! WaterfallVC
+            vc.channel = channel
+            vcs.append(vc)
+        }
+        print(vcs)
+        return vcs
     }
     
 
