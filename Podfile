@@ -8,4 +8,5 @@ target 'MedicinalReminder' do
   # Pods for MedicinalReminder
   pod 'XLPagerTabStrip', '~> 9.0'
   pod 'CHTCollectionViewWaterfallLayout'
+  pod 'YPImagePicker'
 end

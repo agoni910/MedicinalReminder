@@ -18,6 +18,9 @@
 		4CCE7C9329BCC6A4004543F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE7C9229BCC6A4004543F2 /* Main.storyboard */; };
 		4CDC6DAA29C071A4002448A7 /* WaterfallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC6DA929C071A4002448A7 /* WaterfallVC.swift */; };
 		4CDC6DAF29C074D9002448A7 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC6DAE29C074D9002448A7 /* WaterfallCell.swift */; };
+		4CE68C2D29C86F4600B7CD55 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE68C2C29C86F4600B7CD55 /* Extensions.swift */; };
+		4CEAD0D729C7FC85009FF916 /* TabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEAD0D629C7FC85009FF916 /* TabBarC.swift */; };
+		4CEAD0D929C7FF08009FF916 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEAD0D829C7FF08009FF916 /* PostVC.swift */; };
 		551E2D993D2EC82A6D83267B /* Pods_MedicinalReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9CAD74DF3A3738BFFEB527 /* Pods_MedicinalReminder.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +39,9 @@
 		4CCE7C9229BCC6A4004543F2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4CDC6DA929C071A4002448A7 /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
 		4CDC6DAE29C074D9002448A7 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
+		4CE68C2C29C86F4600B7CD55 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4CEAD0D629C7FC85009FF916 /* TabBarC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarC.swift; path = MedicinalReminder/TabBarC.swift; sourceTree = SOURCE_ROOT; };
+		4CEAD0D829C7FF08009FF916 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
 		8B9CAD74DF3A3738BFFEB527 /* Pods_MedicinalReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicinalReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CC7BC6976CE849DF20D3D8 /* Pods-MedicinalReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicinalReminder.debug.xcconfig"; path = "Target Support Files/Pods-MedicinalReminder/Pods-MedicinalReminder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +91,9 @@
 				4CCE7C7029BCC399004543F2 /* AppDelegate.swift */,
 				4CCE7C7229BCC399004543F2 /* SceneDelegate.swift */,
 				4CCE7C9029BCC66F004543F2 /* Constants.swift */,
+				4CEAD0D629C7FC85009FF916 /* TabBarC.swift */,
+				4CE68C2C29C86F4600B7CD55 /* Extensions.swift */,
+				4CEAD0D829C7FF08009FF916 /* PostVC.swift */,
 				4CCE7C8929BCC65F004543F2 /* Reminder */,
 				4CCE7C9229BCC6A4004543F2 /* Main.storyboard */,
 				4CCE7C7C29BCC39B004543F2 /* Assets.xcassets */,
@@ -243,8 +252,11 @@
 				4CDC6DAF29C074D9002448A7 /* WaterfallCell.swift in Sources */,
 				4CCE7C8D29BCC65F004543F2 /* ReminderVC.swift in Sources */,
 				4CCE7C7329BCC399004543F2 /* SceneDelegate.swift in Sources */,
+				4CE68C2D29C86F4600B7CD55 /* Extensions.swift in Sources */,
 				4CCE7C9129BCC66F004543F2 /* Constants.swift in Sources */,
+				4CEAD0D929C7FF08009FF916 /* PostVC.swift in Sources */,
 				4CDC6DAA29C071A4002448A7 /* WaterfallVC.swift in Sources */,
+				4CEAD0D729C7FC85009FF916 /* TabBarC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,11 +399,13 @@
 				DEVELOPMENT_TEAM = S37CWSV96M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MedicinalReminder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "该吃药了";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -416,11 +430,13 @@
 				DEVELOPMENT_TEAM = S37CWSV96M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MedicinalReminder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "该吃药了";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

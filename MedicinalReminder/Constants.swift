@@ -17,3 +17,4 @@ let kWaterfallCellID = "WaterfallCellID"
 let kWaterfallPadding: CGFloat = 4
 
 let channels = ["今天", "全部"]
+let kMaxPhotoCount = 9
